@@ -1,0 +1,14 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Cabin|Lora|Pacifico&display=swap');
+$texto: 'Lora', serif;
+$titulo:'Cabin', sans-serif;
+$cursivas: 'Pacifico', cursive;
+
+.texto {
+    font-family: $texto;
+}
+.titulo {
+    font-family: $titulo;
+}
+.cusivas {
+    font-family: $cursivas;
+}
