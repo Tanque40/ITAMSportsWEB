@@ -67,14 +67,119 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
+    <Content Include="assets\css\master.css">
+      <DependentUpon>master.scss</DependentUpon>
+    </Content>
+    <Content Include="assets\css\master.min.css">
+      <DependentUpon>master.css</DependentUpon>
+    </Content>
+    <Content Include="assets\images\americano_itam.jpg" />
+    <Content Include="assets\images\basketball_itam.jpg" />
+    <Content Include="assets\images\cheer_itam.jpg" />
+    <Content Include="assets\images\futbol_femenil_itam.jpg" />
+    <Content Include="assets\images\futbol_itam.jpg" />
+    <Content Include="assets\images\infografía_deportes_1.png" />
+    <Content Include="assets\images\infografía_deportes_2.png" />
+    <Content Include="assets\images\rugby_itam.jpg" />
+    <Content Include="assets\images\tocho_itam.jpg" />
+    <Content Include="assets\images\volleyball_itam.jpg" />
+    <Content Include="assets\js\jQuery.min.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\materialize\anime.min.js" />
+    <Content Include="assets\js\materialize\autocomplete.js" />
+    <Content Include="assets\js\materialize\bon\materialize.js" />
+    <Content Include="assets\js\materialize\bon\materialize.min.js" />
+    <Content Include="assets\js\materialize\buttons.js" />
+    <Content Include="assets\js\materialize\cards.js" />
+    <Content Include="assets\js\materialize\carousel.js" />
+    <Content Include="assets\js\materialize\cash.js" />
+    <Content Include="assets\js\materialize\characterCounter.js" />
+    <Content Include="assets\js\materialize\chips.js" />
+    <Content Include="assets\js\materialize\collapsible.js" />
+    <Content Include="assets\js\materialize\component.js" />
+    <Content Include="assets\js\materialize\datepicker.js" />
+    <Content Include="assets\js\materialize\dropdown.js" />
+    <Content Include="assets\js\materialize\forms.js" />
+    <Content Include="assets\js\materialize\global.js" />
+    <Content Include="assets\js\materialize\materialbox.js" />
+    <Content Include="assets\js\materialize\modal.js" />
+    <Content Include="assets\js\materialize\parallax.js" />
+    <Content Include="assets\js\materialize\pushpin.js" />
+    <Content Include="assets\js\materialize\range.js" />
+    <Content Include="assets\js\materialize\scrollspy.js" />
+    <Content Include="assets\js\materialize\select.js" />
+    <Content Include="assets\js\materialize\sidenav.js" />
+    <Content Include="assets\js\materialize\slider.js" />
+    <Content Include="assets\js\materialize\tabs.js" />
+    <Content Include="assets\js\materialize\tapTarget.js" />
+    <Content Include="assets\js\materialize\timepicker.js" />
+    <Content Include="assets\js\materialize\toasts.js" />
+    <Content Include="assets\js\materialize\tooltip.js" />
+    <Content Include="assets\js\materialize\waves.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\masterColors.scss" />
+    <Content Include="assets\css\_masterColors.scss" />
+    <Content Include="assets\css\master.scss" />
+    <Content Include="assets\css\materialize-src\LICENSE" />
+    <Content Include="assets\css\materialize-src\README.md" />
+    <Content Include="assets\css\materialize-src\sass\components\forms\_checkboxes.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\forms\_file-input.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\forms\_forms.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\forms\_input-fields.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\forms\_radio-buttons.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\forms\_range.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\forms\_select.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\forms\_switches.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_badges.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_buttons.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_cards.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_carousel.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_chips.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_collapsible.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_color-classes.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_color-variables.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_datepicker.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_dropdown.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_global.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_grid.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_icons-material-design.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_materialbox.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_modal.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_navbar.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_normalize.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_preloader.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_pulse.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_sidenav.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_slider.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_table_of_contents.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_tabs.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_tapTarget.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_timepicker.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_toast.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_tooltip.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_transitions.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_typography.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_variables.scss" />
+    <Content Include="assets\css\materialize-src\sass\components\_waves.scss" />
+    <Content Include="assets\css\materialize-src\sass\materialize.scss" />
+    <Content Include="assets\css\_fonts.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -83,13 +188,13 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\images\" />
-    <Folder Include="assets\js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

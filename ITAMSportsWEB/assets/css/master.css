@@ -2,47 +2,92 @@
 .primary-color-0 {
   color: #006854; }
 
+.primary-bgColor-0 {
+  background-color: #006854; }
+
 .primary-color-1 {
   color: #24907B; }
+
+.primary-bgColor-1 {
+  background-color: #24907B; }
 
 .primary-color-2 {
   color: #0B7D67; }
 
+.primary-bgColor-2 {
+  background-color: #0B7D67; }
+
 .primary-color-3 {
   color: #005141; }
+
+.primary-bgColor-3 {
+  background-color: #005141; }
 
 .primary-color-4 {
   color: #00362B; }
 
-.secondary-color-0 {
+.primary-bgColor-4 {
+  background-color: #00362B; }
+
+.primary-color-0 {
   color: #0A316B; }
 
-.secondary-color-1 {
+.primary-bgColor-0 {
+  background-color: #0A316B; }
+
+.primary-color-1 {
   color: #2F5895; }
 
-.secondary-color-2 {
+.primary-bgColor-1 {
+  background-color: #2F5895; }
+
+.primary-color-2 {
   color: #164181; }
 
-.secondary-color-3 {
+.primary-bgColor-2 {
+  background-color: #164181; }
+
+.primary-color-3 {
   color: #052554; }
 
-.secondary-color-4 {
+.primary-bgColor-3 {
+  background-color: #052554; }
+
+.primary-color-4 {
   color: #021737; }
 
-.third-color-0 {
+.primary-bgColor-4 {
+  background-color: #021737; }
+
+.primary-color-0 {
   color: #218A00; }
 
-.third-color-1 {
+.primary-bgColor-0 {
+  background-color: #218A00; }
+
+.primary-color-1 {
   color: #52BF2F; }
 
-.third-color-2 {
+.primary-bgColor-1 {
+  background-color: #52BF2F; }
+
+.primary-color-2 {
   color: #33A60F; }
 
-.third-color-3 {
+.primary-bgColor-2 {
+  background-color: #33A60F; }
+
+.primary-color-3 {
   color: #1A6C00; }
 
-.third-color-4 {
+.primary-bgColor-3 {
+  background-color: #1A6C00; }
+
+.primary-color-4 {
   color: #114700; }
+
+.primary-bgColor-4 {
+  background-color: #114700; }
 
 .texto {
   font-family: "Lora", serif; }
@@ -6579,3 +6624,6 @@ input[type=range]::-ms-thumb {
     bottom: auto;
     text-align: center;
     margin-top: 1.2rem; } }
+
+body {
+  background-color: #e9ebee; }
