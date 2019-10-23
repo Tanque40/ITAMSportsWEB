@@ -59,10 +59,10 @@ $i: 0;
 //Blue
 $i: 0;
 @each $secondary-color in $secondary-colors {
-    .primary-color-#{$i} {
+    .secondary-color-#{$i} {
         color: #{$secondary-color};
     }
-    .primary-bgColor-#{$i} {
+    .secondary-bgColor-#{$i} {
         background-color: #{$secondary-color};
     }
     $i: $i + 1;
@@ -70,10 +70,10 @@ $i: 0;
 //Low greens
 $i: 0;
 @each $third-color in $third-colors {
-    .primary-color-#{$i} {
+    .third-color-#{$i} {
         color: #{$third-color};
     }
-    .primary-bgColor-#{$i} {
+    .third-bgColor-#{$i} {
         background-color: #{$third-color};
     }
     $i: $i + 1;

@@ -15,9 +15,49 @@
     <!--Navbar-->
     <nav class="primary-bgColor-0">
         <div class="nav-wrapper">
-
+            <a href="#" class="brand-logo title">ITAMSports</a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <!-- Faltan links -->
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="#">Eventos<i class="material-icons right">event</i></a>
+                </li>
+                <li>
+                    <a href="#">Equipos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <i class="material-icons right">contacts</i></a>
+                </li>
+            </ul>
         </div>
     </nav>
+
+    <!--Para móviles-->
+    <ul id="slide-out" class="sidenav">
+        <!-- Faltan links -->
+        <li>
+            <a href="#">Eventos<i class="material-icons right">event</i></a>
+        </li>
+        <li>
+            <a href="#">Equipos <i class="material-icons right">contacts</i></a>
+        </li>
+    </ul>
+
+    <!--Panel uno, bienvanida y foto de colmillos-->
+    <div class="row">
+        <div class="col s12 m6 xl4 white">
+            <h2 class="title">Bienvenido a ITAMSports</h2>
+            <span class="center">
+                <p class="text">En este portal econtrarás toda la información importante
+                    sobre tus equipos favoritos del ITAM, los eventos próximos y los
+                    resultados obtenidos a lo largo del semestre y porqué no, la hsitoria.
+                </p>
+            </span>
+        </div>
+        <div class="col s12 m6 xl4">
+
+        </div>
+        <div class="col s12 m6 xl4">
+
+        </div>
+    </div>
 
     <form id="form1" runat="server">
         <div>
