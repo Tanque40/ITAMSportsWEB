@@ -176,11 +176,13 @@
     <Content Include="assets\css\materialize-src\sass\components\_waves.scss" />
     <Content Include="assets\css\materialize-src\sass\materialize.scss" />
     <Content Include="assets\css\_fonts.scss" />
+    <Content Include="assets\css\_boxSizecing.scss" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ITAMSports - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
