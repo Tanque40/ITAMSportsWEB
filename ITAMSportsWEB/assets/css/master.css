@@ -89,14 +89,74 @@
 .third-bgColor-4 {
   background-color: #114700; }
 
-.texto {
+.texto-default {
   font-family: "Lora", serif; }
 
-.titulo {
+.titulo-default {
   font-family: "Cabin", sans-serif; }
 
-.cusivas {
+.cusivas-default {
   font-family: "Pacifico", cursive; }
+
+.texto-0 {
+  font-family: "Lora", serif;
+  font-size: 0.5em; }
+
+.titulo-0 {
+  font-family: "Cabin", sans-serif;
+  font-size: 0.5em; }
+
+.cursivas-0 {
+  font-family: "Pacifico", cursive;
+  font-size: 0.5em; }
+
+.texto-1 {
+  font-family: "Lora", serif;
+  font-size: 1em; }
+
+.titulo-1 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1em; }
+
+.cursivas-1 {
+  font-family: "Pacifico", cursive;
+  font-size: 1em; }
+
+.texto-2 {
+  font-family: "Lora", serif;
+  font-size: 1.5em; }
+
+.titulo-2 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5em; }
+
+.cursivas-2 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5em; }
+
+.texto-3 {
+  font-family: "Lora", serif;
+  font-size: 2em; }
+
+.titulo-3 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2em; }
+
+.cursivas-3 {
+  font-family: "Pacifico", cursive;
+  font-size: 2em; }
+
+.texto-4 {
+  font-family: "Lora", serif;
+  font-size: 2.5em; }
+
+.titulo-4 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2.5em; }
+
+.cursivas-4 {
+  font-family: "Pacifico", cursive;
+  font-size: 2.5em; }
 
 .materialize-red {
   background-color: #e51c23 !important; }
@@ -6627,3 +6687,24 @@ input[type=range]::-ms-thumb {
 
 body {
   background-color: #e9ebee; }
+
+.parallax-container {
+  height: auto !important; }
+
+.parallax-unMedio {
+  padding: 0px 0px 0px 0px !important;
+  display: inline-block;
+  height: 250px; }
+
+.center-parallax-image {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  overflow: hidden; }
+
+.card-panel {
+  margin: 0px !important;
+  padding-bottom: 20px !important; }
+
+.justify {
+  text-align: justify; }

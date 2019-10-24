@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--Navbar-->
-    <nav class="primary-bgColor-0">
+    <nav class="primary-bgColor-0 titulo-default">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo title">ITAMSports</a>
             <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -30,7 +30,7 @@
     </nav>
 
     <!--Para móviles-->
-    <ul id="slide-out" class="sidenav">
+    <ul id="slide-out" class="sidenav titulo-default">
         <!-- Faltan links -->
         <li>
             <a href="#">Eventos<i class="material-icons right">event</i></a>
@@ -42,20 +42,22 @@
 
     <!--Panel uno, bienvanida y foto de colmillos-->
     <div class="row">
-        <div class="col s12 m6 xl4 white">
-            <h2 class="title">Bienvenido a ITAMSports</h2>
-            <span class="center">
-                <p class="text">En este portal econtrarás toda la información importante
-                    sobre tus equipos favoritos del ITAM, los eventos próximos y los
-                    resultados obtenidos a lo largo del semestre y porqué no, la hsitoria.
-                </p>
-            </span>
+        <div class="col s12 m6 parallax-unMedio">
+            <div class="card-panel white">
+                <div class="card-content">
+                    <span class="titulo-2">Bienvenido a ITAMSports</span>
+                    <p class="texto-2 justify">
+                        En este portal econtrarás toda la información importante
+                        sobre tus equipos favoritos del ITAM, los eventos próximos y los
+                        resultados obtenidos a lo largo del semestre y porqué no, la hsitoria.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col s12 m6 xl4">
-
-        </div>
-        <div class="col s12 m6 xl4">
-
+        <div class="col s12 m6 parallax-unMedio">
+            <div class="parallax-container">
+                <img src="assets/images/americano_itam.jpg" alt="Balón de futbol americano con el logo del ITAM" class="center-parallax-image"/>
+            </div>
         </div>
     </div>
 

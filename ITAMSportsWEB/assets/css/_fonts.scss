@@ -2,13 +2,29 @@
 $texto: 'Lora', serif;
 $titulo:'Cabin', sans-serif;
 $cursivas: 'Pacifico', cursive;
-
-.texto {
+$font_sizes: .5em, 1em, 1.5em, 2em, 2.5em;
+.texto-default {
     font-family: $texto;
 }
-.titulo {
+.titulo-default {
     font-family: $titulo;
 }
-.cusivas {
+.cusivas-default {
     font-family: $cursivas;
+}
+$i: 0;
+@each $size in $font_sizes{
+    .texto-#{$i}{
+        font-family: $texto;
+        font-size: $size; 
+    }
+    .titulo-#{$i}{
+        font-family: $titulo;
+        font-size: $size;
+    }
+    .cursivas-#{$i}{
+        font-family: $cursivas;
+        font-size: $size;
+    }
+    $i: $i + 1;
 }
