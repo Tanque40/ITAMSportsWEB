@@ -6688,6 +6688,9 @@ input[type=range]::-ms-thumb {
     text-align: center;
     margin-top: 1.2rem; } }
 
+.brand-logo {
+  margin-left: 15px; }
+
 .parallax-container {
   height: auto !important; }
 
@@ -6704,7 +6707,9 @@ input[type=range]::-ms-thumb {
 
 .card-panel {
   margin: 0px !important;
-  padding-bottom: 20px !important; }
+  padding-bottom: 20px !important;
+  height: 100% !important;
+  max-height: 100% !important; }
 
 body {
   background-color: #e9ebee; }

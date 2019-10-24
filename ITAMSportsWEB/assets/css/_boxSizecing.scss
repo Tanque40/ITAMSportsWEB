@@ -1,21 +1,28 @@
-﻿.parallax-container {
-    height: auto !important;
+﻿@mixin for-large{
+    @media(min-width: 730px){@content;}
 }
 
+.brand-logo{
+    margin-left: 15px;
+}
+
+.parallax-container {
+    height: auto !important;
+}
 .parallax-unMedio {
     padding: 0px 0px 0px 0px !important;
     display: inline-block;
     height: 250px;
 }
-
 .center-parallax-image {
     object-fit: cover;
     width: 100%;
     height: 250px;
     overflow: hidden;
 }
-
 .card-panel {
     margin: 0px !important;
     padding-bottom: 20px !important;
+    height: 100% !important;
+    max-height: 100% !important;
 }
