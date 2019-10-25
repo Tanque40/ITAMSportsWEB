@@ -2,6 +2,8 @@
 @import "_fonts.scss";
 @import "materialize-src/sass/materialize.scss";
 @import "_boxSizecing.scss";
+@import "_BoxProfundity.scss";
+@import "animate.scss";
 $background-color: #e9ebee;
 body{
     background-color: $background-color;

@@ -41,9 +41,9 @@
     </ul>
 
     <!--Panel uno, bienvanida y foto de colmillos-->
-    <div class="row">
+    <div class="row white">
         <div class="col s12 m6 parallax-unMedio">
-            <div class="card-panel white z-depth-3">
+            <div class="card-panel white z-depth-5 box">
                 <div class="card-content">
                     <span class="titulo-3">Bienvenido a ITAMSports</span>
                     <p class="texto-1 justify">
@@ -65,6 +65,11 @@
             <div class="card-panel white z-depth-3">
                 <div class="card-content">
                     <span class="titulo-2">Eventos Recientes</span>
+                    <!--Para hacer la primera conexión con la BD-->
+                    <form id="form1" runat="server">
+                        <div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -77,10 +82,6 @@
     </div>
 
 
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
     <script src="assets/js/jQuery.min.js"></script>
     <script src="assets/js/materialize/bon/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
