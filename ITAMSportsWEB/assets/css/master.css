@@ -6697,12 +6697,12 @@ input[type=range]::-ms-thumb {
 .parallax-unMedio {
   padding: 0px 0px 0px 0px !important;
   display: inline-block;
-  height: 250px; }
+  height: 255px; }
 
 .center-parallax-image {
   object-fit: cover;
   width: 100%;
-  height: 250px;
+  height: 255px;
   overflow: hidden; }
 
 .card-panel {

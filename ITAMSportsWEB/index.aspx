@@ -54,12 +54,28 @@
                 </div>
             </div>
         </div>
-        <div class="col s12 m6 parallax-unMedio">
+
+        <div class="col s12 m6 parallax-unMedio ">
             <div class="parallax-container">
                 <img src="assets/images/americano_itam.jpg" alt="Balón de futbol americano con el logo del ITAM" class="center-parallax-image"/>
             </div>
         </div>
+
+        <div class="col s12 m6 parallax-unMedio push-m6">
+            <div class="card-panel white z-depth-3">
+                <div class="card-content">
+                    <span class="titulo-2">Eventos Recientes</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m6 parallax-unMedio pull-m6">
+            <div class="parallax-container">
+                <img src="assets/images/rasultado_partido.jpg" alt="Juego reciente" class="center-parallax-image"/>
+            </div>
+        </div>
     </div>
+
 
     <form id="form1" runat="server">
         <div>

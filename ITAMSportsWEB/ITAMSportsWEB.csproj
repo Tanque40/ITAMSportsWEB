@@ -82,6 +82,7 @@
     <Content Include="assets\images\futbol_itam.jpg" />
     <Content Include="assets\images\infografía_deportes_1.png" />
     <Content Include="assets\images\infografía_deportes_2.png" />
+    <Content Include="assets\images\rasultado_partido.jpg" />
     <Content Include="assets\images\rugby_itam.jpg" />
     <Content Include="assets\images\tocho_itam.jpg" />
     <Content Include="assets\images\volleyball_itam.jpg" />
@@ -179,6 +180,7 @@
     <Content Include="assets\css\materialize-src\sass\materialize.scss" />
     <Content Include="assets\css\_fonts.scss" />
     <Content Include="assets\css\_boxSizecing.scss" />
+    <Content Include="assets\css\_BoxProfundity.scss" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
