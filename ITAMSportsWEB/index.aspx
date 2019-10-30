@@ -41,44 +41,39 @@
     </ul>
 
     <!--Panel uno, bienvanida y foto de colmillos-->
-    <div class="row white">
-        <div class="col s12 m6 parallax-unMedio">
-            <div class="card-panel white z-depth-5 box">
-                <div class="card-content">
+    <div class="container">
+        <div class="row">
+            <div class="section white"> 
+                <div class="row container">
                     <span class="titulo-3">Bienvenido a ITAMSports</span>
                     <p class="texto-1 justify">
                         En este portal econtrarás toda la información importante
                         sobre tus equipos favoritos del ITAM, los eventos próximos y los
-                        resultados obtenidos a lo largo del semestre y porqué no, la hsitoria.
+                        resultados obtenidos a lo largo del semestre y porqué no, la historia.
                     </p>
                 </div>
-            </div>
-        </div>
+            </div>      
 
-        <div class="col s12 m6 parallax-unMedio ">
             <div class="parallax-container">
-                <img src="assets/images/americano_itam.jpg" alt="Balón de futbol americano con el logo del ITAM" class="center-parallax-image"/>
+                <img src="assets/images/americano_itam.jpg" alt="Balón de futbol americano con el logo del ITAM" class=""/>
             </div>
-        </div>
 
-        <div class="col s12 m6 parallax-unMedio push-m6">
-            <div class="card-panel white z-depth-3">
-                <div class="card-content">
+            <div class="section white"> 
+                <div class="row container">
                     <span class="titulo-2">Eventos Recientes</span>
-                    <!--Para hacer la primera conexión con la BD-->
+                     <!--Para hacer la primera conexión con la BD-->
                     <form id="form1" runat="server">
                         <div>
                         </div>
                     </form>
                 </div>
-            </div>
-        </div>
+            </div>      
 
-        <div class="col s12 m6 parallax-unMedio pull-m6">
             <div class="parallax-container">
-                <img src="assets/images/rasultado_partido.jpg" alt="Juego reciente" class="center-parallax-image"/>
+                <img src="assets/images/rasultado_partido.jpg" alt="Juego reciente" class=""/>
             </div>
         </div>
+        
     </div>
 
 

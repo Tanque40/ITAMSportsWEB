@@ -1,5 +1,17 @@
-﻿.box {
+﻿@import "_mixins-sizes.scss";
+
+.box {
     z-index: 5;
     position: relative;
     margin: 5px 5px 10px 5px !important;
+}
+.parallax-at-right{
+    @include for-minimun{
+        z-index: 5;
+        //background-color:white;
+        width: 0;
+        height: 0;
+        border-top: 25px solid white;
+        position: relative;
+    }
 }

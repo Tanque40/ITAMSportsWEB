@@ -182,6 +182,7 @@
     <Content Include="assets\css\_boxSizecing.scss" />
     <Content Include="assets\css\_BoxProfundity.scss" />
     <Content Include="assets\css\animate.scss" />
+    <Content Include="assets\css\_mixins-sizes.scss" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>

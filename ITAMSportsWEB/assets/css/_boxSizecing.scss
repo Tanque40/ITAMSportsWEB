@@ -1,14 +1,10 @@
-﻿@mixin for-large{
-    @media(min-width: 730px){@content;}
-}
-
-.brand-logo{
+﻿.brand-logo{
     margin-left: 15px;
 }
 
-.parallax-container {
-    height: auto !important;
-}
+//.parallax-container {
+//    height: auto !important;
+//}
 .parallax-unMedio {
     padding: 0px 0px 0px 0px !important;
     //display: in;
@@ -17,12 +13,12 @@
 .center-parallax-image {
     object-fit: cover;
     width: 100%;
-    height: 255px;
-    overflow: hidden;
+    height: 100%;
+    //overflow: hidden;
 }
 .card-panel {
     margin: 0px !important;
-    padding-bottom: 20px !important;
-    height: 95% !important;
-    max-height: 100% !important;
+    //padding-bottom: 20px !important;
+  //  height: 100% !important;
+    //max-height: 100% !important;
 }
