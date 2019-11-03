@@ -112,49 +112,97 @@
 
 .texto-1 {
   font-family: "Lora", serif;
-  font-size: 1em; }
+  font-size: 0.75em; }
 
 .titulo-1 {
   font-family: "Cabin", sans-serif;
-  font-size: 1em; }
+  font-size: 0.75em; }
 
 .cursivas-1 {
   font-family: "Pacifico", cursive;
-  font-size: 1em; }
+  font-size: 0.75em; }
 
 .texto-2 {
   font-family: "Lora", serif;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .titulo-2 {
   font-family: "Cabin", sans-serif;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .cursivas-2 {
   font-family: "Pacifico", cursive;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .texto-3 {
   font-family: "Lora", serif;
-  font-size: 2em; }
+  font-size: 1.25em; }
 
 .titulo-3 {
   font-family: "Cabin", sans-serif;
-  font-size: 2em; }
+  font-size: 1.25em; }
 
 .cursivas-3 {
   font-family: "Pacifico", cursive;
-  font-size: 2em; }
+  font-size: 1.25em; }
 
 .texto-4 {
   font-family: "Lora", serif;
-  font-size: 2.5em; }
+  font-size: 1.5em; }
 
 .titulo-4 {
   font-family: "Cabin", sans-serif;
-  font-size: 2.5em; }
+  font-size: 1.5em; }
 
 .cursivas-4 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5em; }
+
+.texto-5 {
+  font-family: "Lora", serif;
+  font-size: 1.75; }
+
+.titulo-5 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.75; }
+
+.cursivas-5 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.75; }
+
+.texto-6 {
+  font-family: "Lora", serif;
+  font-size: 2em; }
+
+.titulo-6 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2em; }
+
+.cursivas-6 {
+  font-family: "Pacifico", cursive;
+  font-size: 2em; }
+
+.texto-7 {
+  font-family: "Lora", serif;
+  font-size: 2.25em; }
+
+.titulo-7 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2.25em; }
+
+.cursivas-7 {
+  font-family: "Pacifico", cursive;
+  font-size: 2.25em; }
+
+.texto-8 {
+  font-family: "Lora", serif;
+  font-size: 2.5em; }
+
+.titulo-8 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2.5em; }
+
+.cursivas-8 {
   font-family: "Pacifico", cursive;
   font-size: 2.5em; }
 
@@ -6690,6 +6738,18 @@ input[type=range]::-ms-thumb {
 
 .brand-logo {
   margin-left: 15px; }
+
+@media (min-width: 200px) {
+  .parallax-container {
+    height: 250px !important; } }
+
+@media (min-width: 600px) {
+  .parallax-container {
+    height: 350px !important; } }
+
+@media (min-width: 730px) {
+  .parallax-container {
+    height: 500px !important; } }
 
 .parallax-unMedio {
   padding: 0px 0px 0px 0px !important;

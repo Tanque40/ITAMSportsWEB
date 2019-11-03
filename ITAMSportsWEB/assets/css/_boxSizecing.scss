@@ -1,10 +1,20 @@
-﻿.brand-logo{
+﻿@import "_mixins-sizes.scss";
+.brand-logo{
     margin-left: 15px;
 }
 
-//.parallax-container {
-//    height: auto !important;
-//}
+
+.parallax-container {
+    @include for-mini-phones {
+        height: 250px !important;
+    }
+    @include for-phones {
+        height: 350px !important;
+    }
+    @include for-large {
+        height: 500px !important;
+    }
+}
 .parallax-unMedio {
     padding: 0px 0px 0px 0px !important;
     //display: in;

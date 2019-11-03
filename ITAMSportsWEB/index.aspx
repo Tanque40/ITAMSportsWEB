@@ -40,13 +40,16 @@
         </li>
     </ul>
 
-    <!--Panel uno, bienvanida y foto de colmillos-->
-    <div class="container">
+    <!--Main: bienvenida, eventos recientes, equipos-->
+    <main>
+
         <div class="row">
+
+            <!-- Bienvenida -->
             <div class="section white"> 
                 <div class="row container">
-                    <span class="titulo-3">Bienvenido a ITAMSports</span>
-                    <p class="texto-1 justify">
+                    <span class="titulo-6">Bienvenido a ITAMSports</span>
+                    <p class="texto-3 justify">
                         En este portal econtrarás toda la información importante
                         sobre tus equipos favoritos del ITAM, los eventos próximos y los
                         resultados obtenidos a lo largo del semestre y porqué no, la historia.
@@ -55,29 +58,50 @@
             </div>      
 
             <div class="parallax-container">
-                <img src="assets/images/americano_itam.jpg" alt="Balón de futbol americano con el logo del ITAM" class=""/>
+                <div class="parallax"><img src="assets/images/americano_itam.jpg" alt="Balón de futbol americano con el logo del ITAM"/></div>
             </div>
 
+            <!-- Eventos recientes -->
             <div class="section white"> 
                 <div class="row container">
-                    <span class="titulo-2">Eventos Recientes</span>
+                    <span class="titulo-6">Eventos Recientes</span>
                      <!--Para hacer la primera conexión con la BD-->
-                    <form id="form1" runat="server">
+                    <form id="eventosRecientes" runat="server">
                         <div>
+                            <asp:GridView ID="eventosRecientesView" runat="server"></asp:GridView>
                         </div>
                     </form>
                 </div>
             </div>      
 
             <div class="parallax-container">
-                <img src="assets/images/rasultado_partido.jpg" alt="Juego reciente" class=""/>
+                <div class="parallax"><img src="assets/images/rasultado_partido.jpg" alt="Juego reciente"/></div>
             </div>
+
+            <!-- Equipos -->
+            <div class="section white">
+                <div class="row container">
+                    <span class="titulo-6 right">Equipos del ITAM</span>
+                    <!-- Segunda conexión a la BD -->
+                    <form id="formEquipos" runat="server">
+                        <div>
+                            <asp:GridView ID="equiposView" runat="server" CssClass="striped responsive-table"></asp:GridView>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="parallax-container">
+                <div class="parallax"><img src="assets/images/cheer_itam.jpg" alt="Equipo Cheer (Porristas) del ITAM"/></div>
+            </div>
+
         </div>
         
-    </div>
+    </main>
 
 
     <script src="assets/js/jQuery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     <script src="assets/js/materialize/bon/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>

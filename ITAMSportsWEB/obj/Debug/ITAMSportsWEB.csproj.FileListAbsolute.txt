@@ -165,3 +165,14 @@ C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\obj\Debug\ITAMSportsW
 C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\obj\Debug\ITAMSportsWEB.csproj.CopyComplete
 C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\obj\Debug\ITAMSportsWEB.dll
 C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\obj\Debug\ITAMSportsWEB.pdb
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\Newtonsoft.Json.dll
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\System.Net.Http.Formatting.dll
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.dll
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.WebHost.dll
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\Newtonsoft.Json.xml
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\System.Net.Http.Formatting.xml
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.xml
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.WebHost.xml
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Net.Http.Formatting.resources.dll
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Web.Http.resources.dll
+D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Web.Http.WebHost.resources.dll

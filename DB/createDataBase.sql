@@ -224,3 +224,29 @@ USE [master]
 GO
 ALTER DATABASE [ITAMSports] SET  READ_WRITE 
 GO
+
+create table Equipo(
+		idEquipo smallint not null primary key,
+		nombre varchar(30) not null,
+		jugados smallint not null,
+		ganados smallint not null,
+		perdidos smallint not null,
+		idDep char references Deporte)
+
+create table Resultado(
+		idResultado smallint not null primary key,
+		idEq1 smallint not null,
+		idEq2 smallint not null,
+		Constraint idEquipo1 FOREIGN KEY (idEq1) REFERENCES Equipo (idEquipo),
+		Constraint idEquipo2 FOREIGN KEY (idEq2) REFERENCES Equipo (idEquipo)
+)
+
+create table EquipoResultado(
+		idResultado smallint not null references Resultado,
+		idEquipo smallint not null references Equipo
+		primary key (idResultado, idEquipo))
+
+create table EquipoJugador(
+		claveUnica smallint not null references Jugador,
+		idEquipo smallint not null references Equipo
+		primary key (claveUnica, idEquipo))
