@@ -7,39 +7,19 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace ITAMSportsWEB
-{
+namespace ITAMSportsWEB {
 
 
-	public partial class index
-	{
+	public partial class index {
 
 		/// <summary>
-		/// Control eventosRecientes.
+		/// Control proximosEventosView.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.HtmlControls.HtmlForm eventosRecientes;
-
-		/// <summary>
-		/// Control eventosRecientesView.
-		/// </summary>
-		/// <remarks>
-		/// Campo generado automáticamente.
-		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.GridView eventosRecientesView;
-
-		/// <summary>
-		/// Control formEquipos.
-		/// </summary>
-		/// <remarks>
-		/// Campo generado automáticamente.
-		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-		/// </remarks>
-		protected global::System.Web.UI.HtmlControls.HtmlForm formEquipos;
+		protected global::System.Web.UI.WebControls.GridView proximosEventosView;
 
 		/// <summary>
 		/// Control equiposView.

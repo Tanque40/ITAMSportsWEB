@@ -3,31 +3,31 @@
   color: #006854; }
 
 .primary-bgColor-0 {
-  background-color: #006854; }
+  background-color: #006854 !important; }
 
 .primary-color-1 {
   color: #24907B; }
 
 .primary-bgColor-1 {
-  background-color: #24907B; }
+  background-color: #24907B !important; }
 
 .primary-color-2 {
   color: #0B7D67; }
 
 .primary-bgColor-2 {
-  background-color: #0B7D67; }
+  background-color: #0B7D67 !important; }
 
 .primary-color-3 {
   color: #005141; }
 
 .primary-bgColor-3 {
-  background-color: #005141; }
+  background-color: #005141 !important; }
 
 .primary-color-4 {
   color: #00362B; }
 
 .primary-bgColor-4 {
-  background-color: #00362B; }
+  background-color: #00362B !important; }
 
 .secondary-color-0 {
   color: #0A316B; }

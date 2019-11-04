@@ -225,6 +225,7 @@ GO
 ALTER DATABASE [ITAMSports] SET  READ_WRITE 
 GO
 
+use ITAMSports
 create table Equipo(
 		idEquipo smallint not null primary key,
 		nombre varchar(30) not null,
