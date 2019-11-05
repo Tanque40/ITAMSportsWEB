@@ -51,11 +51,12 @@
                     </div>
                     <div class="col s12 m6 panel valign-wrapper center" id="deporte">
                         <span class="titulo-4">Evento de:</span><br />
+                        <br />
                         <asp:Label ID="lbEquipo" runat="server" Text="Label"></asp:Label>
                     </div>
                     <div class="col s12">
                         <span class="titulo-2 left">Posibles participantes:</span><br />
-                        <asp:BulletedList ID="listParticipantes" runat="server"></asp:BulletedList>
+                        <asp:BulletedList ID="listParticipantes" runat="server" CssClass="center"></asp:BulletedList>
                     </div>
                 </div>
             </form>
