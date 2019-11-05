@@ -10,42 +10,42 @@
 namespace ITAMSportsWEB {
 
 
-	public partial class index {
+	public partial class eventos {
 
 		/// <summary>
-		/// Control proximosEventosView.
+		/// Control form1.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.GridView proximosEventosView;
+		protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
 		/// <summary>
-		/// Control eventosList.
+		/// Control listEvento.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.DropDownList eventosList;
+		protected global::System.Web.UI.WebControls.BulletedList listEvento;
 
 		/// <summary>
-		/// Control btEventos.
+		/// Control lbEquipo.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button btEventos;
+		protected global::System.Web.UI.WebControls.Label lbEquipo;
 
 		/// <summary>
-		/// Control equiposView.
+		/// Control listParticipantes.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.GridView equiposView;
+		protected global::System.Web.UI.WebControls.BulletedList listParticipantes;
 	}
 }

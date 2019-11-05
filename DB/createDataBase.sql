@@ -251,3 +251,6 @@ create table EquipoJugador(
 		claveUnica smallint not null references Jugador,
 		idEquipo smallint not null references Equipo
 		primary key (claveUnica, idEquipo))
+
+		SELECT * FROM Evento, Deporte WHERE Evento.idEvento = 1 AND Evento.idDep = Deporte.idDep
+		Select * from Equipo

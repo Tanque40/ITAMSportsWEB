@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Odbc;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data.Odbc;
 
 namespace ITAMSportsWEB {
-	public partial class index : System.Web.UI.Page {
+	public partial class eventos : System.Web.UI.Page {
 		private String forScripts(String tipo, String message) {
 			String script = @"<script type='text/javascript'>
 								alerta('{0}', '{1}')
@@ -32,32 +32,27 @@ namespace ITAMSportsWEB {
 			if(miConexion != null) {
 				try {
 					//Primero llenamos los eventos
-					String query = String.Format("SELECT TOP (10) Deporte.nombre as Deporte, CAST(Evento.fecha as VARCHAR) as Fecha, CAST(Evento.hora as VARCHAR(5)) as Hora, Evento.descripcion as Descripción FROM Evento, Deporte WHERE Evento.fecha >= '{0}' AND Evento.idDep = Deporte.idDep", DateTime.Now.ToString("yyyy/MM/dd"));
+					String query = String.Format("SELECT * FROM Evento, Deporte WHERE Evento.idEvento = '{0}' AND Evento.idDep = Deporte.idDep", Convert.ToInt16(Session["idEvento"]));
 					OdbcCommand cmd = new OdbcCommand(query, miConexion);
 					OdbcDataReader rd = cmd.ExecuteReader();
-					proximosEventosView.DataSource = rd;
-					proximosEventosView.DataBind();
-					//Para el dropdown list de eventos
-					query = String.Format("SELECT TOP(10) Evento.idEvento, Deporte.nombre, CAST(Evento.fecha as VARCHAR) as Fecha FROM Evento, Deporte WHERE Evento.fecha >= '{0}' AND Evento.idDep = Deporte.idDep", DateTime.Now.ToString("yyyy/MM/dd"));
+					String fecha = "Fecha: " + rd.GetDate(1);
+					String hora = "Hora: " + rd.GetDateTime(2);
+					String lugar = "Lugar: " + rd.GetString(3);
+					String descripcion = "Descrípción: " + rd.GetString(4);
+					Char idDeporte = rd.GetChar(5);
+					String deporte = rd.GetString(7);
+					listEvento.Items.Add(fecha);
+					listEvento.Items.Add(hora);
+					listEvento.Items.Add(lugar);
+					listEvento.Items.Add(descripcion);
+					lbEquipo.Text = deporte;
+
+					query = String.Format("Select nombre From Equipo Where idDep = '{0}'", idDeporte);
 					cmd = new OdbcCommand(query, miConexion);
 					rd = cmd.ExecuteReader();
-					ListItem row;
-					String texto;
-					eventosList.Items.Clear();
 					while (rd.Read()) {
-						row = new ListItem();
-						texto = rd.GetString(1) + " del día: " + rd.GetDate(2).ToString("dd/MM/yyyy");
-						row.Text = texto;
-						row.Value = rd.GetInt16(0).ToString();
-						eventosList.Items.Add(row);
+						listParticipantes.Items.Add(rd.GetString(0));
 					}
-
-					//Llenamos los Equipos
-					query = "SELECT Equipo.nombre as Equipo, Deporte.nombre as Deporte, Equipo.jugados as 'Partidos Juagdos', Equipo.ganados as 'Partidos Ganados', Equipo.perdidos as 'Partidos Perdidos' FROM Equipo, Deporte WHERE Equipo.idDep = Deporte.idDep";
-					cmd = new OdbcCommand(query, miConexion);
-					rd = cmd.ExecuteReader(); 
-					equiposView.DataSource = rd;
-					equiposView.DataBind();
 
 					//Cerramos la conexión
 					miConexion.Close();
@@ -67,11 +62,6 @@ namespace ITAMSportsWEB {
 					ScriptManager.RegisterStartupScript(this, typeof(Page), "alerta", script, false);
 				}
 			}
-		}
-
-		protected void btEventos_Click(object sender, EventArgs e) {
-			Session["idEvento"] = eventosList.SelectedValue;
-			Response.Redirect("eventos.aspx");
 		}
 	}
 }

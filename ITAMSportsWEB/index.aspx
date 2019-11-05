@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,23 +12,25 @@
     <link href="assets/css/master.min.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" />
 </head>
+
     <script src="assets/js/jQuery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     <script src="assets/js/materialize/bon/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
+
 <body>
+  
     <!--Navbar-->
     <nav class="primary-bgColor-0 titulo-default">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo title">ITAMSports</a>
             <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <!-- Faltan links -->
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li>
-                    <a href="#">Eventos<i class="material-icons right">event</i></a>
+                    <a href="#Eventos">Eventos<i class="material-icons right">event</i></a>
                 </li>
                 <li>
-                    <a href="#">Equipos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <i class="material-icons right">contacts</i></a>
+                    <a href="#Equipos">Equipos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <i class="material-icons right">contacts</i></a>
                 </li>
             </ul>
         </div>
@@ -35,12 +38,11 @@
 
     <!--Para móviles-->
     <ul id="slide-out" class="sidenav titulo-default">
-        <!-- Faltan links -->
         <li>
-            <a href="#">Eventos<i class="material-icons right">event</i></a>
+            <a href="#Eventos">Eventos<i class="material-icons right">event</i></a>
         </li>
         <li>
-            <a href="#">Equipos <i class="material-icons right">contacts</i></a>
+            <a href="#Equipos">Equipos <i class="material-icons right">contacts</i></a>
         </li>
     </ul>
 
@@ -62,18 +64,39 @@
         <div class="parallax-container">
             <div class="parallax"><img src="assets/images/americano_itam.jpg" alt="Balón de futbol americano con el logo del ITAM"/></div>
         </div>
+
         <form runat="server">
+
             <!-- Eventos recientes -->
-            <div class="section white"> 
+            <div class="section white" id="Eventos"> 
                 <div class="row container">
                     <span class="titulo-6">Próximos Eventos</span>
                     <p class="texto-3 justify">
                         Los eventos más próximos:
                     </p>
                         <!--Para hacer la primera conexión con la BD-->                  
-                    <div>
-                        <asp:GridView ID="proximosEventosView" runat="server" CssClass="striped responsive-table"></asp:GridView>
-                    </div>                    
+                    <div class="row">
+                        <div class="col s12">
+                            <asp:GridView ID="proximosEventosView" runat="server" CssClass="striped responsive-table" AutoGenerateColumns="true" EmptyDataText="<span class='texto-2'>No hay información por mostrar</span>"></asp:GridView>
+                        </div>              
+                        <div class="col s6 offset-s3">
+                            <div class="row valign-wrapper">
+                                <div class="col s4 valign-wrapper">
+                                    <span class="texto-2 center">Ver más de: </span>
+                                </div>
+                                <div class="col s4 valign-wrapper center-align">
+                                    <div class="input-field">
+                                        <asp:DropDownList ID="eventosList" runat="server" CssClass="right"></asp:DropDownList>
+                                    </div>
+                                </div>
+                                <div class="col s4 valign-wrapper center-align">
+                                    <div class="input-field">
+                                        <asp:Button ID="btEventos" runat="server" Text="Saber..." CssClass="waves-effect waves-light btn primary-bgColor-2" OnClick="btEventos_Click" />
+                                    </div>
+                                </div>
+                            </div>                         
+                        </div>                   
+                    </div>
                 </div>
             </div>      
 
@@ -82,7 +105,7 @@
             </div>
 
             <!-- Equipos -->
-            <div class="section white">
+            <div class="section white" id="Equipos">
                 <div class="row container">
                     <span class="titulo-6 right">Equipos del ITAM</span><br />
                     <p class="texto-3 justify">
@@ -98,6 +121,7 @@
             <div class="parallax-container">
                 <div class="parallax"><img src="assets/images/cheer_itam.jpg" alt="Equipo Cheer (Porristas) del ITAM"/></div>
             </div>
+
         </form>
         
     </main>
@@ -124,7 +148,7 @@
                             <i class="medium material-icons">face</i><br />
                             <a href="https://github.com/Tanque40" class="white-text"><u>Bruno Vitte</u></a>
                         </div>
-                        <div class="col m4 s12 center verti">
+                        <div class="col m4 s12 center">
                             <i class="medium material-icons">face</i><br />
                             <a href="https://github.com/josepe43" class="white-text"><u>Jose Luis Gutiérrez</u></a>
                         </div>

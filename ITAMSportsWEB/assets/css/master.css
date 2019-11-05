@@ -6739,6 +6739,9 @@ input[type=range]::-ms-thumb {
 .brand-logo {
   margin-left: 15px; }
 
+.m6.panel {
+  height: 60%; }
+
 @media (min-width: 200px) {
   .parallax-container {
     height: 250px !important; } }

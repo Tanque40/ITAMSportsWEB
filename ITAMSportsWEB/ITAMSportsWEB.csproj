@@ -132,11 +132,27 @@
     <Content Include="assets\js\materialize\toasts.js" />
     <Content Include="assets\js\materialize\tooltip.js" />
     <Content Include="assets\js\materialize\waves.js" />
+    <Content Include="equipos.aspx" />
+    <Content Include="eventos.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="equipos.aspx.cs">
+      <DependentUpon>equipos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="equipos.aspx.designer.cs">
+      <DependentUpon>equipos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eventos.aspx.cs">
+      <DependentUpon>eventos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eventos.aspx.designer.cs">
+      <DependentUpon>eventos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

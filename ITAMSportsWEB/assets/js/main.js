@@ -14,11 +14,11 @@ function alerta(tipo, message) {
         elTipo = "error"
     else if (tipo == "informativo")
         elTipo = "info"
-    else if (tipo = "exito")
+    else if (tipo == "exito")
         elTipo = "succes"
     else if (tipo == "precaucion")
         elTipo = "warning"
-    else if (tipo = "pregunta")
+    else if (tipo == "pregunta")
         elTipo = "question"
 
     swalMaterialize.fire({
@@ -32,4 +32,5 @@ function alerta(tipo, message) {
 $(document).ready(function () {
     $('.sidenav').sidenav();
     $('.parallax').parallax();
+    $('select').formSelect();
 });
