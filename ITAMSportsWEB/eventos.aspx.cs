@@ -35,6 +35,7 @@ namespace ITAMSportsWEB {
 					String query = String.Format("SELECT * FROM Evento, Deporte WHERE Evento.idEvento = '{0}' AND Evento.idDep = Deporte.idDep", Convert.ToInt16(Session["idEvento"]));
 					OdbcCommand cmd = new OdbcCommand(query, miConexion);
 					OdbcDataReader rd = cmd.ExecuteReader();
+					rd.Read();
 					String fecha = "Fecha: " + rd.GetDate(1);
 					String hora = "Hora: " + rd.GetDateTime(2);
 					String lugar = "Lugar: " + rd.GetString(3);
@@ -46,6 +47,7 @@ namespace ITAMSportsWEB {
 					listEvento.Items.Add(lugar);
 					listEvento.Items.Add(descripcion);
 					lbEquipo.Text = deporte;
+					rd.Close();
 
 					query = String.Format("Select nombre From Equipo Where idDep = '{0}'", idDeporte);
 					cmd = new OdbcCommand(query, miConexion);

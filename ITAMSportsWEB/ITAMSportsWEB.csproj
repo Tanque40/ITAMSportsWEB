@@ -133,6 +133,7 @@
     <Content Include="assets\js\materialize\tooltip.js" />
     <Content Include="assets\js\materialize\waves.js" />
     <Content Include="equipos.aspx" />
+    <Content Include="error.html" />
     <Content Include="eventos.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="index.aspx" />
