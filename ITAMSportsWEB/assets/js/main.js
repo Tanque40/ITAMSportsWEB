@@ -28,6 +28,12 @@ function alerta(tipo, message) {
     })
 }
 
+function slected() {
+    registered = $('input.select-dropdown').getSelectedValues()
+    console.log(registred)
+    document.getElementById('<%=HiddenField1.ClientID%>').value = registered[0]
+}
+
 //Cuando el documento esté cargado, algo así como mi main
 $(document).ready(function () {
     $('.sidenav').sidenav();
