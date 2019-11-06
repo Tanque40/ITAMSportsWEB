@@ -71,6 +71,7 @@ namespace ITAMSportsWEB {
 
 		protected void btEventos_Click(object sender, EventArgs e) {
 			Session["idEvento"] = eventosList.SelectedValue;
+			Console.WriteLine(Session.ToString());
 			Response.Redirect("eventos.aspx");
 		}
 	}

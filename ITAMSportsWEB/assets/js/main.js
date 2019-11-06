@@ -34,3 +34,8 @@ $(document).ready(function () {
     $('.parallax').parallax();
     $('select').formSelect();
 });
+
+$('input.select-dropdown').on('change', function () {
+    console.log($(this).val())
+    document.getElementById('<%=HiddenField1.ClientID%>').value = $(this).val()
+});
