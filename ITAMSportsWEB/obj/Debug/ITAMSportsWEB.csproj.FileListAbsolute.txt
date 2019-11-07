@@ -176,3 +176,14 @@ D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.WebHost.
 D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Net.Http.Formatting.resources.dll
 D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Web.Http.resources.dll
 D:\cursos\DAI\Proyectos\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\Newtonsoft.Json.dll
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\System.Net.Http.Formatting.dll
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.dll
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.WebHost.dll
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\Newtonsoft.Json.xml
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\System.Net.Http.Formatting.xml
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.xml
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\System.Web.Http.WebHost.xml
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Web.Http.resources.dll
+C:\Users\bvittes\Documents\DAI\ITAMSportsWEB\ITAMSportsWEB\bin\es\System.Web.Http.WebHost.resources.dll
